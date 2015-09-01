@@ -1,0 +1,113 @@
+/* HEADER STYLES */
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    width: 1200px;
+    height: 50px;   
+    padding: 20px 0;
+}
+
+header img {
+    float: left;
+    margin: 0;
+    width: 180px;
+    /*Add border-right:1px solid #6b6b6b;*/
+}
+
+header a, h4 {
+    float: right;
+    margin:30px 0 0 40px;
+    color:#6b6b6b;
+    font-size: 12px;
+}
+header a .fa-twitter {
+    font-size: 30px;
+}
+/* PHOTO GRID STYLES */
+
+
+.poze1 {
+    width: 1200px;
+    height: 520px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.poze1 img {
+    width: 400px;
+    float: left;
+    padding: 0;
+}
+.poze1 a:hover {
+    opacity: 0.8;
+}
+
+/* CONTACT/ABOUT STYLES */
+
+.continut {
+    width: 1200px;
+    height: 185px;
+    background-image: url("../img/background.png");
+}
+
+.continut div {
+    width: 318px; 
+    height: 140px;
+    float: left;
+    margin-top: 20px;
+    padding: 0px 40px;
+    font-family:sans-serif;
+    color: white;
+    font-size: 14px;
+    border-right:1px solid black;
+    /*Add border-right: 1px solid white;*/
+}
+.continut div:last-child {
+    border: none;
+}
+.continut p {
+    font-family: sans-serif;
+    font-size: 26px;
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+/* FOOTER STYLES */
+
+footer {
+    width: 1200px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+footer img {
+    float: right;
+    margin-right: 0px;
+    /*Add border-right:1px solid #6b6b6b;*/
+}
+
+footer a {
+    float: right;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-left: 20;
+    font-family: sans-serif;
+    font-size: 11px;
+    color:#6b6b6b;
+}
+
+footer p {
+    float: left;
+    font-family: sans-serif;
+    font-size: 11px;
+    color:#6b6b6b;
+    margin-top: 5px;
+}
+    
+    
